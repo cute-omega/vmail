@@ -22,7 +22,7 @@
   "devDependencies": {
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.7.1",
-    "wrangler": "^4.43.0"
+    "wrangler": "^4.44.0"
   },
   "dependencies": {
     "@libsql/client": "0.15.15",
