@@ -17055,7 +17055,7 @@ function textToHtml(str) {
 function htmlToText(str) {
   str = str
     .replace(/\r?\n/g, "")
-    .replace(/<\!\-\-.*?\-\->/gi, " ")
+    .replace(/<\!\-\-[\s\S]*?\-\->/gi, " ")
     .replace(/<br\b[^>]*>/gi, "\n")
     .replace(/<\/?(p|div|table|tr|td|th)\b[^>]*>/gi, "\n\n")
     .replace(/<script\b[^>]*>.*?<\/script\b[^>]*>/gi, " ")
